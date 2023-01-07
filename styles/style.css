@@ -22,12 +22,7 @@ nav a:hover{
     
     color: #219ebc;
 }
-#hero-msg h1{
-    text-align:left;
-    color: #FFB703;
-    font-size: 45px;
-    margin-left: 350px;
-}
+
 
 
 body{
@@ -110,7 +105,12 @@ width: 100%;
     margin-top: 100px; 
 }
 
-
+#hero-msg h1{
+    text-align:left;
+    color: #FFB703;
+    font-size: 45px;
+    margin-left: 350px;
+}
 
 
  
