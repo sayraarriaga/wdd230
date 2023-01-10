@@ -8,8 +8,8 @@ nav{
     display:flex;
     justify-content: space-around;
     color: #023047;
-    font-size: x-large;
-    padding-top: 35px;
+    font-size: small;
+    padding-top: 15px;
     text-decoration: none;
 }
 nav a{
@@ -34,14 +34,12 @@ body{
 h2{
     margin: 30px;
     text-align: center;
-    font-size: xx-large;
+    font-size: medium;
 }
 
 
 footer{
     background-color: #023047;
-    padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -56,17 +54,17 @@ footer a{
 }
 
 footer p {
-    font-size: 1.2em;
+    font-size: 0.7em;
     color: #FFB703;
 }
 #lastupdate{
-    font-size: 1.2em;
+    font-size: 0.7em;
     color: #FFB703;
-    margin-left: 320px;
+    
     margin-right: 0px;
 }
 #dateholder{
-    font-size: 1.2em;
+    font-size: 0.7em;
     color: #FFB703;
 }
 #hero{
@@ -83,8 +81,8 @@ width: 100%;
     border-radius: 25px;
     background-color: #023047;
     padding: 20px;
-    width: 1270px;
-    height: 400px;
+    width: 450px;
+    height: 100px;
     box-shadow: 10px 10px 10px  #FFB703;
     
     
@@ -93,23 +91,20 @@ width: 100%;
 }
 #hero-img{
     width: 15%;
-    margin-left: 80px;
-    margin-top: 30px;
-    margin-bottom: 30px;
     z-index: -1;
     
 }
 #hero-msg{
     grid-column: 2/4;
     grid-row: 1/2;
-    margin-top: 100px; 
+    margin-top: 50px; 
 }
 
 #hero-msg h1{
-    text-align:left;
+    
     color: #FFB703;
-    font-size: 45px;
-    margin-left: 350px;
+    font-size: 20px;
+    
 }
 
 
