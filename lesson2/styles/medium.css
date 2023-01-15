@@ -1,0 +1,26 @@
+@media only screen and (max-width: 992px) {
+    main{
+        margin-left: 50px;
+       grid-template-columns: 1fr 1fr ;
+        
+    }
+    #hickslaw{
+       
+        grid-column: 1/2;
+        grid-row: 1/2;
+        
+    }
+    #proximity{
+        
+        grid-column: 2/3;
+        grid-row: 1/2;
+        
+        
+    }
+    #contrast{
+       grid-row: 2/3;
+        grid-column: 1/3;
+        
+    }
+   
+}
