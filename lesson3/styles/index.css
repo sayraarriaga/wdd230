@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&family=Sofia+Sans:wght@300&display=swap');
+div{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+h1, h2{
+    font-family: Oswald;
+    text-align: center;
+    color:white;
+    
+}
+
+h3{
+    font-family: Oswald; 
+    text-align: center;  
+    background-color: rgb(2, 59, 73);
+    border-radius: 15px;
+    color: white;
+    margin-top: -1px;
+}
+#pagename {
+    background-color:rgb(2, 59, 73);
+   
+    
+    
+}
+nav {
+	background-color: #8dbad7;
+	text-align: center;
+	
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+nav a:hover {
+	background-color:rgb(216, 216, 127);
+	color:rgb(2, 59, 73);
+}
+
+#logo{
+    font-size: large;
+    border-style:ridge;
+    border-radius: 15px;
+    grid-column: 1/2;
+    margin: 20px;
+}
+#porpuse{
+    font-size: large;
+    border-style:ridge;
+    border-radius: 15px;
+    grid-column: 2/3;
+    margin: 20px;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+p, a{
+    margin:15px;
+    font-family: Roboto;
+}
+#foot{
+    font-family: Oswald;
+    text-align: center;
+    color:white;
+    background-color:rgb(2, 59, 73);
+    
+
+}
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+        
+	}
+	
+	nav a {
+		font-size: 2rem;
+	}
+    
+}
