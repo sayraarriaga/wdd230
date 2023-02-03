@@ -8,15 +8,15 @@ button.addEventListener("click", () => {
 
 	const listChapter = document.createElement("li");
 	const listText = document.createElement("span");
-	const listBtn = document.createElement("button");
+	const listErase = document.createElement("button");
 
 	listChapter.appendChild(listText);
 	listText.textContent = chapter;
-	listChapter.appendChild(listBtn);
-	listBtn.textContent = "X";
+	listChapter.appendChild(listErase);
+	listErase.textContent = "X";
 	list.appendChild(listChapter);
 
-	listBtn.addEventListener("click", () => {
+	listErase.addEventListener("click", () => {
 		list.removeChild(listChapter);
 	});
 
