@@ -1,0 +1,30 @@
+@media only screen and (min-width: 64rem) {
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #hickslaw{
+       
+        grid-column: 1/2;
+        
+        
+    }
+    #proximity{
+        
+        grid-column: 2/3;
+       
+        
+        
+    }
+    #contrast{
+       grid-column: 3/4;
+       grid-row: 1/2;
+       
+        
+    }
+
+    #contrast img{
+        width: 300px;
+    }
+   
+
+}
