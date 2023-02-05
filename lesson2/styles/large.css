@@ -23,8 +23,16 @@
     }
 
     #contrast img{
-        width: 300px;
+        width: 380px;
     }
+    #proximity img{
+        width: 380px;
+    }
+    #hickslaw img{
+        width: 380px;
+    }
+    
+    
    
 
 }
