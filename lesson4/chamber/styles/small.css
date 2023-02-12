@@ -13,12 +13,11 @@ header {
     justify-content: center;
 
 }
-#logo {
-    height: 50px;
-    width:auto;
-    
-    
+header figure.logo{
+    float: left;
+    margin: 0 2% 0 0;
 }
+
 .headings {
     display: flex;
     flex-direction: column;
@@ -90,14 +89,23 @@ margin-top: -1px;
 main{
     display:block;
 }
+
+
+main figure.heroImg img {
+    width: 100%;
+         
+   }
+
 main section{
-    border: 1px solid rgba(0, 0, 0, 0.2);
+   
     height: 200px;
     margin-top: 10px;
-    background-color: #eee;
+   
     padding:10px;
     font-family: Roboto;
 }
+
+
 main section div{
     border: 1px solid rgba(0, 0, 0, 0.2);
     height: 80px;
@@ -105,6 +113,28 @@ main section div{
     background-color: #eee;
     padding:10px;
 
+}
+
+main #wheather{
+    background-color:#EE964B ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #wheather div{
+    background-color:#EE964B ;
+    border: none;
+    font-size: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+#wheather h2{
+    font-size: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 main section div.spot3{
     display: none;
@@ -143,6 +173,10 @@ footer .group2 {
 nav ul li a:hover {
     background-color: #0D3B66;
     color:#eee
+}
+
+label input{
+    width: 10px;
 }
 
 

@@ -15,7 +15,8 @@
     <div id="banner"></div>
     <header>
         
-        <img id="logo" src="images/rsz_logo_small(1).png" alt="Mountain logo">
+        <img id="logo" src="images/rsz_logo_small.webp" alt="Mountain logo">
+   
         <section class="headings">
         <h1>Point of the Mountain Chamber </h1>
         <div class="m">Matamoros, Tamaulipas</div>
@@ -43,7 +44,19 @@
    
     <main>
         <section id="hero">
-            Hero with name and call to action
+            <!--<figure class="heroImg">
+           <img src="images/wdd230-org.jpg" alt="heroimg" sizes="50vw" 
+           srcset="images/wdd230-01org.jpg 400w, 
+           images/wdd230-02org.jpg 800w, 
+           images/wdd230-03org.jpg 1200w">
+            </figure>-->
+            <picture class="heroImg">
+                <source media="(max-width: 400px)" srcset="images/wdd230-01org.jpg">
+                <source media="(max-width: 700px)" srcset="images/wdd230-02org.jpg">
+                <source media="(max-width: 1600px)" srcset="images/rsz_wdd230-03org.jpg">
+                <img src="images/wdd230-org.jpg" alt="hero image">
+                </picture>
+
         </section>
 
         <section id="event">
@@ -51,7 +64,25 @@
         </section>
 
         <section id="wheather">
-            Weather
+            <h2>wheather</h2>
+            <div>
+                <!--<p><span id="temperature">33</span>°F</p>
+                <p>Wind Speed: <span id="windspeed">2.5</span>km/h</p>
+                <p>Wind Chill: <span id="windchill"></span></p>-->
+            <label for="temperature">Temperature(°F):</label>
+            <input type="text" id="temperature" name="temperature">
+            </div>
+             <div>
+                <label for="windspeed">Wind speed(k/h):</label>
+                <input type="text" id="windspeed" name="windspeed">
+            </div>
+             <div>
+                <input type="button" id="calculate" value="    Calculate Wind Chill   "> <br>
+            
+
+                <label for="windchill">Wind Chill:</label>
+                <input type="text" id="windchill" name="windchill" disabled>
+            </div>
         </section>
         <section id="newrelase">
             News ReLase
@@ -94,6 +125,6 @@
         </div>
     </footer>
     <script src="scripts/index.js"></script>
-    
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

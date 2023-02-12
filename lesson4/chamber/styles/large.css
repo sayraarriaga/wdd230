@@ -19,11 +19,7 @@
     nav ul lia {
         padding: 5rem 1rem;
     }
-    #logo {
     
-        width: 150px;
-        height: auto;
-    }
     main{
         display:grid;
         grid-template-columns: 1fr 3fr 1fr;
@@ -31,7 +27,7 @@
     }
     main #hero{
         margin: 5px 5px;
-        height: 410px;
+      
         grid-column: 2/3;
         grid-row: 1/3;
         
