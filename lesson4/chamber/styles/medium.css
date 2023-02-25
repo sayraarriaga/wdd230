@@ -98,5 +98,44 @@
             
             text-align: Center;
          }
+         /*---------------Discover--------------*/
+         #p1{
+            margin-right: 200px;
+            text-align: center;
         }
+        picture{
+            
+            display: block;
+            text-align: center;
+        }
+        #p1{
+            text-align: center;
+            margin-left: 70px;
+            margin-right: -50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: larger;
+        }
+        #p2, #p3, #p4, #p5, #p6{
+            margin-left: 100px;
+            margin-bottom: 50px;
+            font-size: larger;
+        }
+            
+            #img1, #img2, #img3, #img4, #img5{
+                margin-left: 100px;
+                width: 550px;
+                height: 350px;
+                
+            
+            }
+            #img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover{
+        
+                transition: transform .5s;
+                box-shadow: 0 0 50px #333;
+                
+                transform: scale(1.1);
+        }
+        }
+        
     
