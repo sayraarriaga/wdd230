@@ -292,6 +292,12 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
+#joinformat{
+    text-align: center;
+    
+    color:#0D3B66 ;
+    
+}
 
 
 
