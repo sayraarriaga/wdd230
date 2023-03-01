@@ -1,0 +1,32 @@
+h1{
+    box-sizing: border-box;
+    background-color: #FAF0CA;
+    text-align: center ;
+    font-size: 70px;
+    color: #0D3B66;
+}
+h2{
+   
+    text-align: center ;
+    font-size: 30px;
+    color: #0D3B66;
+}
+div{
+   
+    text-align: center ;
+    font-size: 20px;
+    color: #0D3B66;
+}
+a{
+    border: solid ;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #0D3B66;
+    color: #FAF0CA;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+a:hover{
+    text-decoration: underline;
+}

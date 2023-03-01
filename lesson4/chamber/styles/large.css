@@ -23,7 +23,7 @@
     main{
         display:grid;
         grid-template-columns: 1fr 3fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        
     }
     main #hero{
         margin: 5px 5px;
@@ -120,4 +120,59 @@
     #visitsdates{
         font-size: larger;
 }
+}
+
+/*---------JOIN PAGE-----*/
+
+
+
+
+#form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    
+
+}
+form fieldset.personalInfo{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+form fieldset.membershipLevel{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    margin-left: 10px;
+    margin-top: 100px;
+
+   
+    
+
+}
+
+form label.sbs{
+    
+    font-size: large;
+    text-align: left;
+    
+    
+}
+#textArea{
+    
+grid-column: 3/5;
+margin-left: 10px;
+
+
+
+}
+form input.submitBton{
+    grid-column: 2/4;
+    margin: 15px;
+}
+#joinformat{
+    position: absolute;
+    left: 570px;
+    color:#0D3B66 ;
 }
