@@ -232,6 +232,7 @@ nav ul.open {display: block;}
 /*-----------joiin page ----------*/
 #form{
     display: block;
+    text-align: center;
 }
 
 form fieldset{
