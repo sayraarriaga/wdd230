@@ -6,7 +6,7 @@
         "phone": "81 8158 0711",
         "websiteurl": "https://www.petro-7.com.mx/",
         "membershipl":"Gold Membership",
-        "imagefile": "images/petro7.jpg"
+        "imagefile": "https://images.app.goo.gl/nmu1KYBT1xn5ZWfa6"
       },
       {
         "name": "Grupo Lister",
@@ -14,7 +14,7 @@
         "phone": "833 800 1644",
         "websiteurl": "https://www.lister.com.mx/",
         "membershipl":"Silver Membership",
-        "imagefile": "images/lister.jpeg"
+        "imagefile": "https://images.app.goo.gl/uHreYcSE8NKLqQrm8"
       },
       {
         "name": "Rio Grande Valley CH",
@@ -22,7 +22,7 @@
         "phone": "86 8144 0404",
         "websiteurl": "https://www.rgvhyperbaric.com/",
         "membershipl":"Gold Membership",
-        "imagefile": "images/riogrande.png"
+        "imagefile": "https://images.app.goo.gl/dJStXpeR8ndUB6sX8"
       },
       {
         "name": "Marllam",
@@ -30,7 +30,7 @@
         "phone": "86 8816 7404",
         "websiteurl": "https://marllam.com/",
         "membershipl":"Gold Membership",
-        "imagefile": "images/marllam.jpg"
+        "imagefile": "https://images.app.goo.gl/eLrm4haUtdavT73a7"
       },
       {
         "name": "Astware",
@@ -38,7 +38,7 @@
         "phone": "868 907 0279",
         "websiteurl": "https://astware.com/",
         "membershipl":"Gold Membership",
-        "imagefile": "images/astware.png"
+        "imagefile": "https://images.app.goo.gl/7UE9JPFu7JDGimdT8"
       },
       {
         "name": "Cercacel",
@@ -46,7 +46,7 @@
         "phone": "868 111 4954",
         "websiteurl": "https://cercacel.com/",
         "membershipl":"Gold Membership",
-        "imagefile": "images/carcael.png"
+        "imagefile": "https://images.app.goo.gl/GC7q6jRt8YqdYDks8"
       },
       {
         "name": "Hospital CEMQ",
@@ -54,7 +54,7 @@
         "phone": "868 813 4303",
         "websiteurl": "https://hospitalcemq.com/",
         "membershipl":"Gold Membership",
-        "imagefile": "images/cmeq.png"
+        "imagefile": "https://images.app.goo.gl/b9w6jLgP3DFQtRTTA"
       },
       {
         "name": "Fierros y Tubulares",
@@ -62,7 +62,7 @@
         "phone": "868 812 4646",
         "websiteurl": "https://fierroytubulares.com.mx/",
         "membershipl":"Gold Membership",
-        "imagefile": "img/fierrosytubulares.png"
+        "imagefile": "https://images.app.goo.gl/HxaeVm75XrF7BgtF7"
       },
       {
         "name": "Serviclima Luna",
@@ -70,7 +70,7 @@
         "phone": "868 813 6619",
         "websiteurl": "http://www.serviclimaluna.com/",
         "membershipl":"Gold Membership",
-        "imagefile": "images/luna.webp"
+        "imagefile": "https://images.app.goo.gl/rymky1Wm11CZkDaJ9"
       }
     ]
 }
