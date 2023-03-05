@@ -36,8 +36,8 @@ async function getCompaniesData(url) {
       logo.setAttribute('src', companie.imagefile);
       logo.setAttribute('alt', `Portait of ${companie.name}`);
       logo.setAttribute('loading', 'lazy');
-      logo.setAttribute('width', '340');
-      logo.setAttribute('height', '440');
+      logo.setAttribute('width', '250');
+      logo.setAttribute('height', '300');
       membershipl.setAttribute('href', companie.websiteurl);
   
       // Append the section(card) with the created elements
@@ -46,6 +46,7 @@ async function getCompaniesData(url) {
       card.appendChild(phone);
       card.appendChild(websiteurl);
       card.appendChild(membershipl);
+      card.appendChild(logo)
       
   
       cards.appendChild(card);
