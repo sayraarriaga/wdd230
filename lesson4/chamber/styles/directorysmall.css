@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+*{
+    background-color: white;
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+main
+ {
+  margin: 1rem;
+  position: relative;
+}
+
+h1 {
+  color: #0D3B66;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  
+  width: 60%;
+}
+
+h2 {
+  color: #0D3B66;
+  margin: 0 0 1rem 0;
+	 border-bottom: 1px solid #bbb;
+}
+
+
+
+main {
+  margin-left: 2rem;
+}
+.menu {
+	margin: 1rem auto;
+	border: 1px solid #0D3B66;
+	padding: 0.5rem;
+	background-color: #FAF0CA;
+	text-align: center;
+}
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	align-items: center;
+}
+
+.cards section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.cards section > * {
+	margin: 0.1rem;
+}
+
+.cards h2 {
+	font-family: "Caveat", cursive;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h2 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+.list section p{
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+.list section a{
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+.list section:nth-child(even) p {
+	background-color: #bed;
+}
+.list section:nth-child(even) h2 {
+	background-color: #bed;
+}
+.list section:nth-child(even) a {
+	background-color: #bed;
+}
+
+section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  border: 1px solid #f7e5a8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section > p {
+  min-height: 60px;
+}
+
+img {
+  width: auto;
+	max-width: 325px;
+  box-shadow: 0 0 30px #777;
+  height: 200px;
+  border: 1px solid #333;
+  margin-top: 15px;
+}
+
+li > img {
+  width: auto;
+  height: 30px;
+}
+p{
+    text-align: center;
+}
+
+

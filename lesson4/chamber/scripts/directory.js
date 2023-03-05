@@ -38,6 +38,7 @@ async function getCompaniesData(url) {
       logo.setAttribute('loading', 'lazy');
       logo.setAttribute('width', '340');
       logo.setAttribute('height', '440');
+      membershipl.setAttribute('href', companie.websiteurl);
   
       // Append the section(card) with the created elements
       card.appendChild(h2);
@@ -48,7 +49,30 @@ async function getCompaniesData(url) {
       
   
       cards.appendChild(card);
+
+      
+
     }); // end of forEach loop
   }; // end of function expression
+
+
+  const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("div.cards");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
 
  
