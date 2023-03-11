@@ -116,25 +116,49 @@ main section div{
 }
 
 main #wheather{
-    background-color:#EE964B ;
+    background-color:#0D3B66 ;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
-main #wheather div{
-    background-color:#EE964B ;
-    border: none;
-    font-size: 15px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-}
+
 #wheather h2{
-    font-size: 15px;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    position: absolute;
+    left: 15px;
+    font-size: px;
+    color:#EE964B;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+figure{
+    margin-top: 25px;
+    margin-left: 5px;
+    font-size: px;
+    
+    color:#EE964B;
+    
+}
+#current-temp{
+    font-size: 40px;
+    color: yellow;
+    margin-left: 75px;
+    margin-top: -120px;
+
+}
+#farenheit{
+    font-size: 30px;
+    color: yellow;
+    margin-left: 80px;
+    margin-top: 0px;
+
+}
+p.wind{
+    
+    margin-top: 2px;
+    font-size: 13px;
+    color: white;
+    
 }
 main section div.spot3{
     display: none;

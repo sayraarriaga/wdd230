@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <section id="wheather">
+        <h2>wheather</h2>
+        <div>
+            <!--<p><span id="temperature">33</span>°F</p>
+            <p>Wind Speed: <span id="windspeed">2.5</span>km/h</p>
+            <p>Wind Chill: <span id="windchill"></span></p>-->
+        <label for="temperature">Temperature(°F):</label>
+        <input type="text" id="temperature" name="temperature">
+        </div>
+         <div>
+            <label for="windspeed">Wind speed(k/h):</label>
+            <input type="text" id="windspeed" name="windspeed">
+        </div>
+         <div>
+            <input type="button" id="calculate" value="    Calculate Wind Chill   "> <br>
+        
+
+            <label for="windchill">Wind Chill:</label>
+            <input type="text" id="windchill" name="windchill" disabled>
+        </div>
+    </section>
+</main>
+<script src="scripts/weathertry.js"></script>
+</body>
+</html>

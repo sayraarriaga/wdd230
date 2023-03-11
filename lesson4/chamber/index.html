@@ -53,7 +53,7 @@
             <picture class="heroImg">
                 <source media="(max-width: 400px)" srcset="images/wdd230-01org.jpg">
                 <source media="(max-width: 700px)" srcset="images/wdd230-02org.jpg">
-                <source media="(max-width: 1600px)" srcset="images/rsz_wdd230-03org.jpg">
+                <source media="(max-width: 1400px)" srcset="images/rsz_wdd230-03org.jpg">
                 <img src="images/wdd230-org.jpg" alt="hero image">
                 </picture>
 
@@ -65,25 +65,17 @@
 
         <section id="wheather">
             <h2>wheather</h2>
-            <div>
-                <!--<p><span id="temperature">33</span>°F</p>
-                <p>Wind Speed: <span id="windspeed">2.5</span>km/h</p>
-                <p>Wind Chill: <span id="windchill"></span></p>-->
-            <label for="temperature">Temperature(°F):</label>
-            <input type="text" id="temperature" name="temperature">
-            </div>
-             <div>
-                <label for="windspeed">Wind speed(k/h):</label>
-                <input type="text" id="windspeed" name="windspeed">
-            </div>
-             <div>
-                <input type="button" id="calculate" value="    Calculate Wind Chill   "> <br>
-            
+         
 
-                <label for="windchill">Wind Chill:</label>
-                <input type="text" id="windchill" name="windchill" disabled>
-            </div>
+        <figure>
+        <img src="" alt="" id="weather-icon" /><p> 
+        <figcaption></figcaption>
+        </figure>
+        <span id="current-temp"></span><p id="farenheit"> &deg;F</p>
+                <p class="wind">Wind speed : <span id="windspeed"></span> m/h</p>
+                <p class="wind">Wind Chill: <span id="windchill"></span> </p>
         </section>
+
         <section id="newrelase">
             News ReLase
         </section>
