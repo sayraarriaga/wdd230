@@ -142,14 +142,14 @@ figure{
 #current-temp{
     font-size: 40px;
     color: yellow;
-    margin-left: 90px;
+    margin-left: 120px;
     margin-top: -120px;
 
 }
 #farenheit{
     font-size: 30px;
     color: yellow;
-    margin-left: 95px;
+    margin-left: 125px;
     margin-top: 0px;
 
 }
