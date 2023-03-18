@@ -52,7 +52,7 @@
                 <legend>Personal Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Business position <input type="text" name="position" placeholder="abcd"></label>
+                <label class="top">Business position (min 7 characters) <input type="text" name="position"   pattern="[A-Za-z-/s]{7,}" placeholder="letters spaces and hyphens"></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@email.com"  required></label>
                 <label class="top">Celphonne <input type="tel" name="phone" placeholder="8681000000" required></label>
                 <label class="top">Business Name* <input type="text" name="bname"  required></label>
@@ -114,6 +114,7 @@
             </div>
         </footer>
         <script src="scripts/join.js"></script>
+        <script src="scripts/index.js"></script>
     
 </body>
 </html>

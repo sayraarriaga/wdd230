@@ -38,7 +38,7 @@ async function getCompaniesData(url) {
       logo.setAttribute('loading', 'lazy');
       logo.setAttribute('width', '250');
       logo.setAttribute('height', '300');
-      membershipl.setAttribute('href', companie.websiteurl);
+      websiteurl.setAttribute('href', companie.websiteurl);
   
       // Append the section(card) with the created elements
       card.appendChild(h2);

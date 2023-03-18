@@ -25,16 +25,12 @@ async function apiFetch() {
   
   apiFetch(url);
 
+ 
+
   function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
     windSpeed.innerHTML=  `${weatherData.wind.speed}`;
-    if (currentTemp < 50){
-    windChill.innerHTML= `${weatherData.main.feels_like}`
-    }
-    else{
-      windChill.innerHTML= "N/A";
-
-    }
+   
     
   
   
@@ -44,7 +40,10 @@ async function apiFetch() {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    
   }
+
+
 
 
 //function windChill(number1, number2){

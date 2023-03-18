@@ -48,15 +48,17 @@ numberOfVisits++;
 localStorage.setItem("visits-ls", numberOfVisits);
 
 // last day 
-const lastDay = document.querySelector("#lastVisits");
+
 
 let today = new Date();
 let lastVisit = Number(window.localStorage.getItem("last-visit"));
-let daysBetween = (today.getDay() - lastVisit) / 84600000;
+let daysBetween = ((today - lastVisit) / 84600000);
 let round = Math.round(daysBetween);
-lastDay.innerHTML =`${round.toFixed(
-	0
-)} `;
+const lastDay = document.querySelector("#lastVisits");
+lastDay.textContent = round;
+
+lastVisit = Date.now();
+localStorage.setItem("last-visit", lastVisit);
 
 //const lastDay = document.querySelector("#lastVisits");
 //lastDay.textContent = round;

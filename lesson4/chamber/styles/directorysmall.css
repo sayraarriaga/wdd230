@@ -74,13 +74,13 @@ main {
 
 .list section {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
 }
 
 .list section > * {
-	margin: 0 1rem;
+	margin: 0 0.1rem;
 }
 
 .list section img {

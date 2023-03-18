@@ -47,6 +47,10 @@
         grid-template-columns: 1fr
         
     }
+    section .spot3 img{
+        max-width: 50px;
+        margin: 0px;
+    }
     main section div.spot1 {
        margin: 10px 10px;
        height: 180px;
