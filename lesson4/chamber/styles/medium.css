@@ -29,12 +29,26 @@
     main #newrelase {
         
         grid-column: 1/4;
-        grid-row: 2/3;
+        grid-row: 3/4;
+        background-color: #0D3B66;
+        border: solid 5px #EE964B;
+    }
+    main #newrelase h4 {
+        font-family: Roboto;
+        color: yellow;
+        font-size: larger;
+        text-align: center;
+    }
+    main #newrelase p {
+        font-family: Solid Lordina;
+        color: white;
+        font-size: larger;
+        text-align: center;
     }
     main #spotlight {
         
         grid-column: 1/4;
-        grid-row: 3/4;
+        grid-row: 4/5;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 1fr;
         display: grid;
@@ -52,17 +66,76 @@
         grid-row: 1/2;
     }
     main #join { 
+        border: solid 5px #EE964B;
         display: inline;
+        background-color: #0D3B66;
         grid-column: 1/4;
         grid-row: 5/6;
     }
-   
-   main #wheather { 
-    margin-left: 10px;
-        grid-column: 3/4;
-        grid-row: 6/7;
-       
+    main #join a{ 
+        margin-left: 35px;
+    font-family: Roboto;
+    font-size: x-large;
+    color: white;
+    text-decoration: double;
+    background-color: #EE964B;
+    border-radius: 5px;
+    
     }
+    main #join p{ 
+        margin-top: 25px;
+        font-family: Lorina solid;
+        font-size: medium;
+        color: white;
+        text-decoration: double;
+      
+        }
+        main #event{
+            text-align: center;
+            background-color: #0D3B66;
+            grid-column: 1/3;
+            grid-row: 6/7;
+            border: solid 5px #EE964B;
+
+        }
+        main #event h2{
+            font-family: roboto;
+            color: yellow;
+            font-size: large;
+
+        }
+        main #event h4{
+            font-family: roboto;
+            color: #EE964B;
+            font-size: medium;
+
+        }
+        main #event h4{
+            font-family: roboto;
+            color: #EE964B;
+            font-size: medium;
+
+        }
+        main #event p{
+            font-family: roboto;
+            color: white;
+            font-size: medium;
+
+        }
+        main #wheather{
+            text-align: center;
+            background-color: #0D3B66;
+            grid-column: 3/4;
+            grid-row: 6/7;
+            border: solid 5px #EE964B;
+
+        }
+   
+    main #wheather h2 { 
+        margin-left: 430px;
+        
+           
+        }
     footer .group1 {
         width:  100%;
         max-width: 1200px;
