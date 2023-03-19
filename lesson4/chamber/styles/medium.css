@@ -57,14 +57,27 @@
        margin: 10px 10px;
        height: 160px;
         grid-column: 1/2;
-        grid-row: 1/2;
+        grid-row: 2/3;
     }
     main section div.spot2 {
         margin: 10px 10px;
         height: 160px;
         grid-column: 2/3;
-        grid-row: 1/2;
+        grid-row: 2/3;
     }
+    main section p.info{
+        margin-top: 0px;
+        font-family: Lorina Solid;
+        font-size: medium;
+        color: #EE964B;
+        text-align: center;
+        
+       }
+       main section  p{
+        margin-top: 0px;
+        
+        
+       }
     main #join { 
         border: solid 5px #EE964B;
         display: inline;

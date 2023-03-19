@@ -120,9 +120,6 @@ main #wheather{
     flex-direction: column;
     
 }
-
-
-
 #wheather h2{
     position: absolute;
     left: 15px;
@@ -142,8 +139,8 @@ figure{
 #current-temp{
     font-size: 40px;
     color: yellow;
-    margin-left: 120px;
-    margin-top: -120px;
+    margin-left: 200px;
+    margin-top: -80px;
 
 }
 #farenheit{
@@ -182,21 +179,73 @@ main section  img.iconB{
     
 }
 main section p.info{
-    margin-top: 0px;
-    font-family: Lorina Solid;
-    font-size: medium;
-    color: #EE964B;
-    text-align: center;
+   display:none;
     
    }
+  
  main section  p{
-    margin-top: 0px;
+    margin-left: 30px;
+    margin-top: -30px;
     font-family: Lorina Solid;
     font-size: xx-small;
     color: white;
     text-align: center;
     
    }
+   main #newrelase {
+        
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: #0D3B66;
+    border: solid 5px #EE964B;
+}
+  
+main #newrelase h4 {
+    font-family: Roboto;
+    color: yellow;
+    font-size: small;
+    text-align: center;
+}
+main #newrelase p {
+    font-family: Solid Lordina;
+    color: white;
+    font-size: small;
+    text-align: center;
+    margin-top: 15px;
+}
+main #event{
+    text-align: center;
+    background-color: #0D3B66;
+    grid-column: 1/3;
+    grid-row: 6/7;
+    border: solid 5px #EE964B;
+
+}
+main #event h2{
+    font-family: roboto;
+    color: yellow;
+    font-size: large;
+
+}
+main #event h4{
+    font-family: roboto;
+    color: #EE964B;
+    font-size: medium;
+
+}
+main #event h4{
+    font-family: roboto;
+    color: #EE964B;
+    font-size: medium;
+
+}
+main #event p{
+    margin-top: 20px;
+    font-family: roboto;
+    color: white;
+    font-size: medium;
+
+}
 
 
 footer {
