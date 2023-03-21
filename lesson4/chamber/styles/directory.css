@@ -5,7 +5,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+header .directory img{
+	max-width: 150px;
+	height: auto;
 
+}
 body {
   font-size: 16px;
   font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -47,6 +51,21 @@ main {
 .menu button {
 	padding: 1rem;
 	font-weight: 700;
+}
+ .directory a{
+	position: absolute;
+	right: 30px;
+	top: 60px;
+	background-color: #0D3B66;
+	border: solid 1px #0D3B66;
+	border-radius: 10px;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+}
+.directory a:hover{
+	text-decoration: underline;
+	color: yellow;
 }
 .cards {
 	display: grid;

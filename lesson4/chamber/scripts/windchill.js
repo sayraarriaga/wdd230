@@ -1,3 +1,14 @@
+function calculateWindChill(temperature, windSpeed){
+  if (temperature <= 50 && windSpeed > 3.0) {
+      let windChill = 35.74 +
+          0.6215 * temperature -
+          35.75 * Math.pow(windSpeed, 0.16) +
+          0.4275 * temperature * Math.pow(windSpeed, 0.16);
+      return windChill.toFixed(0);
+  } else {
+      return "N/A";
+  } 
+}
 
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
@@ -30,6 +41,7 @@ async function apiFetch() {
   function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
     windSpeed.innerHTML=  `${weatherData.wind.speed}`;
+    windChill.innerHTML = calculateWindChill(weatherData.main.temp,weatherData.wind.speed);
    
     
   
@@ -43,12 +55,8 @@ async function apiFetch() {
     
   }
 
+  
+
+  
 
 
-
-//function windChill(number1, number2){
-    //let wc = 35.74 + 0.6215 * number1 - 35.75 * Math.pow(number2, 0.16) + 0.4275 * number1 * Math.pow(number2, 0.16);
-    //return wc
-//}
-
-    

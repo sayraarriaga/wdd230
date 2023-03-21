@@ -109,6 +109,7 @@ main section div{
     border: 5px solid #EE964B;
     height: 80px;
     margin-top: 10px;
+    
     background-color: #0D3B66;
     padding:10px;
 
@@ -198,6 +199,7 @@ main section p.info{
     grid-row: 3/4;
     background-color: #0D3B66;
     border: solid 5px #EE964B;
+    max-width: 800px;
 }
   
 main #newrelase h4 {
