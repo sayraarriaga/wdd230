@@ -406,6 +406,10 @@ form label.top input:required:valid{
     color:#0D3B66 ;
     
 }
+/*contac page*/
+#contactinfo{
+    display: block;
+}
 
 
 
