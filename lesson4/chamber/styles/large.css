@@ -45,6 +45,16 @@
         grid-column: 2/3;
         grid-row: 3/4;
     }
+    main section p.info{
+        display:flex;
+        font-size: small;
+        text-align: center;
+         
+        }
+    main section  p{
+        font-size: small;
+        margin-left: 0;
+    }
     main #spotlight {
         margin: 5px 5px;
         height: 620px;

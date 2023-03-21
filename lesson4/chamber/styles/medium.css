@@ -66,6 +66,7 @@
         grid-row: 2/3;
     }
     main section p.info{
+        display:contents;
         margin-top: 0px;
         font-family: Lorina Solid;
         font-size: medium;
