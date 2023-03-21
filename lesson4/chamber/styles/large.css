@@ -219,3 +219,23 @@ form input.submitBton{
     color:#0D3B66 ;
     
 }
+/*------------ contact page----------*/
+#contactinfo{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+#phoneadress{
+    margin-top: 90px;
+    margin-left: 80px;
+}
+#phoneadress h2,h5{
+   font-family: Roboto;
+   color: #0D3B66;
+}
+#phoneadress p{
+    font-family: Lorina Solid;
+ }
+
+#sendmessage{
+    margin-left: 70px;
+}

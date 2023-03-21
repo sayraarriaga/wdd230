@@ -5,14 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/small.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     <header>
-        <h1>
-            Contact
-        </h1>
+        
+        <img id="logo" src="images/rsz_logo_small.webp" alt="Mountain logo">
+   
+        <section class="headings">
+        <h1>Point of the Mountain Chamber </h1>
+        <div class="m">Matamoros, Tamaulipas</div>
+        
+        </section>
+        
+        <nav>
+            <button id="hamburguerBton"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+            </ul>
+        </nav>
+    <div id="icons">
+        
+       <a href="https://www.facebook.com/"> <img id="facebook" src="images/facebook.png" alt="facebook logo"> </a>
+       <a href="https://mx.linkedin.com/"><img id="linkedin" src="images/linkedin.png" alt="Linkedin logo"></a>
+        
+    </div>
+         
     </header>
-    
-</body>
+    <main id="contactinfo">
+        
+        <div id="phoneadress">
+    <h2>We will solve your doubs</h2>
+<p>Call us to give you all the information or send us a message.</p>
+<h5>Point of Montain Chamber of comerce</h5>
+<p>(868) 812 0040 / (868) 813 4540</p>
+<p>pointofmountain@hotmail.com</p>
+<p>Paseo de la Reforma 40, San Francisco, 87394 Heroica Matamoros, Tamps.</p>
+        </div>
+<div id="sendmessage">
+    <form id="form" method="get" action="thankyou.html">
+                
+        <fieldset class="personalInfo">
+          <legend>Personal Information</legend>
+          <label class="top">First Name* <input type="text" name="fname" required></label>
+          <label class="top">Last Name* <input type="text" name="lname" required></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="someone@email.com"  required></label>
+          <label class="top">Celphonne <input type="tel" name="phone" placeholder="8681000000" required></label>
+          
+      
+      
+      
+                
+        <label for="describe">Message</label>
+
+       <textarea id="describe" name="describe"
+          rows="5" cols="33">
+
+            </textarea>
+        </fieldset>
+    <input type="submit" value="Send Message" class="submitBton">
+    </form>
+</div>
+        
+<main>
+    <footer>
+        <div class="group1">  
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="images/rsz_logo_small(1).png" alt="logo point of mountain">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Point of the Mountain</h2>
+                <p>Matamoros, Tamaulipas</p>
+                
+            </div>
+            <div class="box">
+                <p>Paseo de la Reforma Avenue, 40</p>
+                <p>(551) 65 89 23</p>
+                <a href="https://www.google.com/maps/place/Paseo+de+La+Reforma+40,+San+Francisco,+87350+Heroica+Matamoros,+Tamps./@25.8730835,-97.5138444,18z/data=!3m1!4b1!4m5!3m4!1s0x866f949799329e2b:0xec8e0e07d2e04fe1!8m2!3d25.8730811!4d-97.5127501">Location Map</a>
+            </div> 
+        </div>
+        <div class="group2">
+            <small>&copy;<span id="year"></span> | Point of Mountain Chamber | <b>Sayra Arriaga</b> | WDD 230 project  </small>
+
+        
+            <small  >Last Update: <span id="dateholder"></span> </small>
+            
+        </div>
+    </footer>
+
 <script src="scripts/index.js"></script>
+</body>
 </html>
