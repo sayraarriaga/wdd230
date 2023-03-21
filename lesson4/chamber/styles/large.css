@@ -227,15 +227,21 @@ form input.submitBton{
 #phoneadress{
     margin-top: 90px;
     margin-left: 80px;
+    grid-column: 1/2;
 }
-#phoneadress h2,h5{
+#phoneadress h2{
    font-family: Roboto;
    color: #0D3B66;
 }
+#phoneadress h5{
+    font-family: Roboto;
+    color: #0D3B66;
+ }
 #phoneadress p{
     font-family: Lorina Solid;
  }
 
 #sendmessage{
     margin-left: 70px;
+    grid-column: 2/3;
 }
