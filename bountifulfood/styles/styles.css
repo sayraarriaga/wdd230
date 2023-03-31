@@ -4,6 +4,7 @@ main{
 }
 
 #info{
+    
     margin: 30px;
     margin-top: 20px;
     display: grid;
@@ -87,6 +88,7 @@ margin-top: 60px;
 }
 #calltoaction{
     margin-top: 80px;
+    margin-bottom: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -124,6 +126,7 @@ margin-top: 60px;
     border-radius: 5px;
 }
 header {
+    max-width: 1200px;
     background-color: #80B918;
     padding: 5px 0;
     display: flex;
@@ -132,7 +135,7 @@ header {
     
 
 }
-#logo{
+.logo{
     max-width: 100px;
    
 }
@@ -197,5 +200,52 @@ nav button {
  }
  nav ul lia {
      padding: 5rem 1rem;
+ }
+ footer{
+    width: 100%;
+    padding: 2rem 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80B918;
+    flex-direction: column;
+ }
+ footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    color: #023047;
+ }
+ #socialmedia, #contactinfo, #links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+ }
+ #socialmedia img{
+    width: 50px;
+    height: 50px;
+    margin: 1rem;
+ }
+ #links a{
+    margin: 10px ;
+    color: #0D3B66;
+    text-decoration: none;
+ }
+ #links a:hover{
+    background-color: #0D3B66;
+    color:#ef233c;
+    font-size: x-large;
+    
+ }
+ #contactinfo p{
+    margin: 10px;
+    color: #023047;
+ }
+ small{
+     color: #0D3B66;
  }
 
