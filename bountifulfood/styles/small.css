@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
@@ -17,7 +18,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     #info p, h3{
         margin-top: 70px;
         margin-left: -5px;
-        font-family: Roboto;
+        font-family: 'Noto Sans';
         font-size:x-large;
         
     }
@@ -39,7 +40,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         text-align: center;
          margin: 30px;
         grid-column: 1/2;
-        font-family: Roboto;
+        font-family: 'Noto Sans';
         font-size: 35px;
         text-decoration: double;
         color: #ef233c;
@@ -62,7 +63,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     #weather p, span{
         margin: 20px;
         grid-column: 3/4; 
-        font-family: roboto;
+        font-family: 'Noto Sans';
         color: #023047;
         font-size: 20px;
     }
@@ -75,7 +76,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     }
     #truck h2{
         margin-left: 40px;
-        font-family: roboto;
+        font-family: 'Noto Sans';
         color: #023047;
     }
     #foodtruck{
@@ -95,7 +96,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     
     .cards p, h4{
         max-width: 250px;
-        font-family: Roboto;
+        font-family: 'Noto Sans';
         color: #023047;
     }
     #calltoaction{
@@ -123,13 +124,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     }
     .msg h2{
         color: #023047;
-        font-family: roboto;
+        font-family: 'Noto Sans';
     }
     .msg p{
         font-size: .8em;
         color:#023047;
         padding-bottom: 15px;
-        font-family: Roboto;
+        font-family: 'Noto Sans';
     }
     .fresh{
         font-size: 18px;
@@ -147,15 +148,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     }
     
     
-    #facebook {
-        width: 20px;
-        height: auto;
-       
-    }
-    #linkedin {
-        width: 20px;
-        height: auto;
-    }
     #icons {
         justify-content:center;
     }
@@ -180,7 +172,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         align-items: center;
         flex-wrap: wrap;
         margin-bottom: 1rem;
-        font-family: roboto;
+        font-family: 'Noto Sans';
         color: #023047;
      }
      #socialmedia, #contactinfo, #links{
@@ -191,15 +183,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         margin-bottom: 1rem;
      }
      #socialmedia img{
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
         margin: 1rem;
      }
      #links a{
         margin: 10px ;
         color: #0D3B66;
         text-decoration: none;
-        font-family: roboto;
+        font-family: 'Noto Sans';
      }
      #links a:hover{
         background-color: #0D3B66;
@@ -210,7 +202,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      #contactinfo p{
         margin: 10px;
         color: #023047;
-        font-family: roboto;
+        font-family: 'Noto Sans';
      }
      small{
          color: #0D3B66;
@@ -234,13 +226,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      }
      #aboutus h1{
         color: #023047;
-        font-family: roboto;
+        font-family: 'Noto Sans';
         
      }
      #aboutus p{
         
         color: #023047;
-        font-family: roboto;
+        font-family:'Noto Sans';
        
      }
      #contact{
@@ -255,7 +247,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      }
      .contactclass{
         
-        font-family: Roboto;
+        font-family: 'Noto Sans';
         color: #023047;
         
       
@@ -270,7 +262,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      #form{
         grid-column: 1/2;
         text-align: center;
-        font-family: roboto;
+        font-family: 'Noto Sans';
         color: #0D3B66;
     }
     
@@ -281,19 +273,19 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         padding: .5rem 2%;
     }
     #freshTitle{
-        font-family: roboto;
+        font-family: 'Noto Sans';
         color: #ef233c;
         margin: 30px;
     }
     #fresh p{
         grid-column: 2/3;
-        font-family: Robot;
+        font-family: 'Noto Sans';
     }
     
     form input.submitBton{
         border: none;
         background-color: #d4d700;
-        font-family: roboto;
+        font-family: 'Noto Sans';
         color: #0D3B66;
         border-radius: 1rem;
         padding: .75rem 1.5rem;
@@ -305,7 +297,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     #juiceInfo{
         margin: 30px;
         color: #023047;
-        font-family: Londrina Solid;
+        font-family: 'Noto Sans';
     }
     header {
         display: flex;
