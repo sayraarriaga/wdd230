@@ -17,7 +17,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     #info p, h3{
         margin-top: 70px;
         margin-left: -5px;
-        
+        font-family: Roboto;
         font-size:x-large;
         
     }
@@ -39,6 +39,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         text-align: center;
          margin: 30px;
         grid-column: 1/2;
+        font-family: Roboto;
         font-size: 35px;
         text-decoration: double;
         color: #ef233c;
@@ -61,6 +62,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     #weather p, span{
         margin: 20px;
         grid-column: 3/4; 
+        font-family: roboto;
         color: #023047;
         font-size: 20px;
     }
@@ -73,6 +75,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     }
     #truck h2{
         margin-left: 40px;
+        font-family: roboto;
         color: #023047;
     }
     #foodtruck{
@@ -92,6 +95,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     
     .cards p, h4{
         max-width: 250px;
+        font-family: Londrina Solid;
         color: #023047;
     }
     #calltoaction{
@@ -119,11 +123,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     }
     .msg h2{
         color: #023047;
+        font-family: roboto;
     }
     .msg p{
         font-size: .8em;
         color:#023047;
         padding-bottom: 15px;
+        font-family: Londrina Solid;
     }
     .fresh{
         font-size: 18px;
@@ -174,6 +180,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         align-items: center;
         flex-wrap: wrap;
         margin-bottom: 1rem;
+        font-family: roboto;
         color: #023047;
      }
      #socialmedia, #contactinfo, #links{
@@ -192,6 +199,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         margin: 10px ;
         color: #0D3B66;
         text-decoration: none;
+        font-family: roboto;
      }
      #links a:hover{
         background-color: #0D3B66;
@@ -202,6 +210,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      #contactinfo p{
         margin: 10px;
         color: #023047;
+        font-family: roboto;
      }
      small{
          color: #0D3B66;
@@ -225,11 +234,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      }
      #aboutus h1{
         color: #023047;
+        font-family: roboto;
         
      }
      #aboutus p{
         
         color: #023047;
+        font-family: Londrina Solid;
        
      }
      #contact{
@@ -244,7 +255,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      }
      .contactclass{
         
-        
+        font-family: Londrina Solid;
         color: #023047;
         
       
@@ -259,6 +270,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      #form{
         grid-column: 1/2;
         text-align: center;
+        font-family: roboto;
         color: #0D3B66;
     }
     
@@ -269,16 +281,19 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         padding: .5rem 2%;
     }
     #freshTitle{
+        font-family: roboto;
         color: #ef233c;
         margin: 30px;
     }
     #fresh p{
         grid-column: 2/3;
+        font-family: Londrina Solid;
     }
     
     form input.submitBton{
         border: none;
         background-color: #d4d700;
+        font-family: roboto;
         color: #0D3B66;
         border-radius: 1rem;
         padding: .75rem 1.5rem;
@@ -290,6 +305,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     #juiceInfo{
         margin: 30px;
         color: #023047;
+        font-family: Londrina Solid;
     }
     header {
         display: flex;
