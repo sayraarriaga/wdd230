@@ -280,6 +280,8 @@ nav button {
  #aboutus p{
     grid-column: 5/7;
     color: #023047;
+    background-color: none;
+    font-size: 20px;
     
  }
  #contact{
@@ -298,6 +300,8 @@ nav button {
     grid-column: 5/7;
     margin-top: 150px;
     color: #023047;
+    background-color: none;
+    font-size: 30px;
     
  }
  /* fresh page*/

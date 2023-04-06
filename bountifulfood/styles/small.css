@@ -95,7 +95,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     
     .cards p, h4{
         max-width: 250px;
-        font-family: Londrina Solid;
+        font-family: Roboto;
         color: #023047;
     }
     #calltoaction{
@@ -129,7 +129,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         font-size: .8em;
         color:#023047;
         padding-bottom: 15px;
-        font-family: Londrina Solid;
+        font-family: Roboto;
     }
     .fresh{
         font-size: 18px;
@@ -240,7 +240,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      #aboutus p{
         
         color: #023047;
-        font-family: Londrina Solid;
+        font-family: roboto;
        
      }
      #contact{
@@ -255,7 +255,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      }
      .contactclass{
         
-        font-family: Londrina Solid;
+        font-family: Roboto;
         color: #023047;
         
       
@@ -287,7 +287,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     }
     #fresh p{
         grid-column: 2/3;
-        font-family: Londrina Solid;
+        font-family: Robot;
     }
     
     form input.submitBton{
