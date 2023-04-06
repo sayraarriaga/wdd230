@@ -224,7 +224,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      }
     
      #fruit{
-      display: none;
+      max-width: 300px;
         
      }
      #farmer{
@@ -251,7 +251,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
      }
      #contact img{
        
-       display: none;
+       max-width: 300px;
      }
      .contactclass{
         
