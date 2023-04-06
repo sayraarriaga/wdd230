@@ -1,0 +1,353 @@
+@media only screen and (min-width: 35rem) {
+
+    
+    #info{
+        
+        margin: 10px;
+        
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    
+    }
+    #info p, h3{
+        margin-top: 70px;
+        margin-left: -5px;
+        grid-column: 1/2;
+        font-size:x-large;
+        
+    }
+    #info img{
+        margin-top: -80px;
+        grid-column: 2/3;
+        max-width: 400px;
+        margin-left: 100px;
+        
+        
+        
+    }
+    #weather{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #weather h2{
+        
+        text-align: center;
+         margin: 30px;
+        grid-column: 1/2;
+        font-size: 35px;
+        text-decoration: double;
+        color: #ef233c;
+        box-shadow: 5px 5px 10px #d4d700;
+    
+    
+    }
+    #weatherapi{
+        background-color: #ef233c;
+        box-shadow: 5px 5px 10px #80b918;
+        grid-column: 2/4;
+    
+    }
+    #weather img{
+        grid-column: 2/3; 
+        
+    }
+    
+    #weather p{
+        grid-column: 3/4; 
+    }
+    #truck{
+    margin-top: 60px;
+       background-color: #d4d700; 
+       display: block;
+       
+       box-shadow: 5px 5px 10px #023047;
+    }
+    #truck h2{
+        margin-left: 40px;
+        color: #023047;
+    }
+    #foodtruck{
+        max-width: 500px;
+        margin-left: 30px;
+       
+        box-shadow: 5px 5px 10px #023047;
+    }
+    #foodtruckp{
+        
+        color: #023047;
+    }
+    .cards img{
+        max-width: 250px;
+        box-shadow: 5px 5px 10px #023047;
+    }
+    
+    .cards p, h4{
+        max-width: 250px;
+        color: #023047;
+    }
+    #calltoaction{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-left: -110px;
+    }
+    
+    .juice{
+        max-width: 6000px;
+        grid-column: 2/7;
+        grid-row: 5/8;
+        box-shadow: 5px 5px 10px #023047;
+        }
+        
+    .msg{
+       background-color: #8ECAE6;
+       line-height: 1.5em;
+       padding: 35px;
+       grid-column: 4/6;
+       grid-row: 6/7;
+       box-shadow: 5px 5px 10px #023047;
+    }
+    .msg h2{
+        color: #023047;
+    }
+    .msg p{
+        font-size: .8em;
+        color:#023047;
+        padding-bottom: 15px;
+    }
+    .fresh{
+        font-size: 18px;
+        background-color:#d4d700;
+        text-decoration: none;
+        color: #ef233c;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+   
+    .logo{
+        max-width: 100px;
+       
+    }
+    
+    
+    #facebook {
+        width: 20px;
+        height: auto;
+       
+    }
+    #linkedin {
+        width: 20px;
+        height: auto;
+    }
+    #icons {
+        justify-content:center;
+    }
+    
+    nav {
+        background-color: #80b918;
+    }
+    
+   
+     footer{
+        max-width: 1200px;
+        padding: 2rem 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #80B918;
+        flex-direction: column;
+     }
+     footer p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+        color: #023047;
+     }
+     #socialmedia, #contactinfo, #links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+     }
+     #socialmedia img{
+        width: 50px;
+        height: 50px;
+        margin: 1rem;
+     }
+     #links a{
+        margin: 10px ;
+        color: #0D3B66;
+        text-decoration: none;
+     }
+     #links a:hover{
+        background-color: #0D3B66;
+        color:#ef233c;
+        font-size: x-large;
+        
+     }
+     #contactinfo p{
+        margin: 10px;
+        color: #023047;
+     }
+     small{
+         color: #0D3B66;
+     }
+    
+     /*About us Page*/
+    
+     main #aboutus{
+        margin: 30px;
+        margin-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 150px 150px 150px;
+     }
+    
+     #fruit{
+        max-width: 600px;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        box-shadow: 5px 5px 10px #023047;
+        
+     }
+     #farmer{
+        max-width: 500px;
+        grid-column: 2/5;
+        grid-row: 2/4;
+        box-shadow: 5px 5px 10px #023047;
+     }
+     #aboutus h1{
+        grid-column:5/7;
+        color: #023047;
+        background-color: white;
+     }
+     #aboutus p{
+        grid-column: 5/7;
+        color: #023047;
+        background-color: #80B918;
+        height:max-content;
+        width: fit-content;
+        box-shadow: 5px 5px 10px #023047;
+        
+     }
+     #contact{
+        margin: 30px;
+        margin-top: 80px;
+        display:flex;
+        margin-bottom: 100px;
+     }
+     #contact img{
+        max-width: 400px;
+       
+        box-shadow: 5px 5px 10px #023047;
+     }
+     .contactclass{
+        grid-column: 5/7;
+        
+        color: #023047;
+        background-color: #ef233c;
+        height:max-content;
+        width: fit-content;
+        box-shadow: 5px 5px 10px #023047;
+        
+     }
+     /* fresh page*/
+     #fresh{
+        margin: 30px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+     }
+     #form{
+        grid-column: 1/2;
+        text-align: center;
+        color: #0D3B66;
+    }
+    
+    form fieldset{
+        margin: 2rem 0;
+        border: 1px solid #0D3B66;
+        border-radius: 10px;
+        padding: .5rem 2%;
+    }
+    #freshTitle{
+        color: #ef233c;
+        margin: 30px;
+    }
+    #fresh p{
+        grid-column: 2/3;
+    }
+    
+    form input.submitBton{
+        border: none;
+        background-color: #d4d700;
+        color: #0D3B66;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width:  96%;
+        max-width: 20rem;
+    
+    }
+    #juiceInfo{
+        margin: 30px;
+        color: #023047;
+    }
+    header {
+        display: flex;
+        background-color: #80B918;
+    }
+   
+    .headings {
+     justify-content:left;
+    }
+    nav button {
+        display: block;
+        margin: .2rem 2vw;
+        background: transparent;
+        border: 2px solid;
+        font-size: 2rem;
+        color: #555;
+        justify-items:flex-end; 
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: #0D3B66;
+        border-top: 1px solid  rgba(0,0,0,0.5);
+    }
+    
+    #primaryNav a:hover{
+     background-color: #0D3B66;
+        color:#eee   
+    }
+    nav ul li a:hover {
+        background-color: #0D3B66;
+        color:#eee
+    }
+    
+    label input{
+        width: 10px;
+    }
+    
+    nav ul {display: none;}
+    nav ul.open {display: block;}
+    #hamburguerBton span:nth-child(1) {display: block;}
+    #hamburguerBton span:nth-child(2) {display: none;}
+
+   #hamburguerBton.open span:nth-child(1) {display: none;}
+   #hamburguerBton.open span:nth-child(2) {display: block;}
+}    

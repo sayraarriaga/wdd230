@@ -1,5 +1,6 @@
+@media only screen and (min-width: 64rem) {
 main{
-    max-width: 1600px;
+    max-width: 1200px;
     
 }
 
@@ -202,7 +203,7 @@ nav button {
      padding: 5rem 1rem;
  }
  footer{
-    width: 100%;
+    max-width: 1200px;
     padding: 2rem 8%;
     display: flex;
     justify-content: center;
@@ -249,3 +250,96 @@ nav button {
      color: #0D3B66;
  }
 
+ /*About us Page*/
+
+ main #aboutus{
+    margin: 30px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+ }
+
+ #fruit{
+    max-width: 600px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #023047;
+    
+ }
+ #farmer{
+    max-width: 500px;
+    grid-column: 2/5;
+    grid-row: 2/4;
+    box-shadow: 5px 5px 10px #023047;
+ }
+ #aboutus h1{
+    grid-column:5/7;
+    color: #023047;
+ }
+ #aboutus p{
+    grid-column: 5/7;
+    color: #023047;
+    
+ }
+ #contact{
+    margin: 30px;
+    margin-top: 80px;
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 100px;
+ }
+ #contact img{
+    max-width: 600px;
+    grid-column: 1/4;
+    box-shadow: 5px 5px 10px #023047;
+ }
+ .contactclass{
+    grid-column: 5/7;
+    margin-top: 150px;
+    color: #023047;
+    
+ }
+ /* fresh page*/
+ #fresh{
+    margin: 30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ #form{
+    grid-column: 1/2;
+    text-align: center;
+    color: #0D3B66;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #0D3B66;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+#freshTitle{
+    color: #ef233c;
+    margin: 30px;
+}
+#fresh p{
+    grid-column: 2/3;
+}
+
+form input.submitBton{
+    border: none;
+    background-color: #d4d700;
+    color: #0D3B66;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width:  96%;
+    max-width: 20rem;
+
+}
+#juiceInfo{
+    margin: 30px;
+    color: #023047;
+}
+
+}

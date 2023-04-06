@@ -22,7 +22,7 @@ async function getCompaniesData(url) {
       let membershipl = document.createElement('p')
       let logo = document.createElement('img');
   
-      // Build the h2 content out to show the prophet's full name - finish the template string
+      // Build the h2 content out to show the companie name - finish the template string
       h2.textContent = `${companie.name}`;
       adress.textContent = ` ${companie.adresses}`;
       phone.textContent = `${companie.phone}`;
