@@ -24,9 +24,11 @@ async function getFruitsData(url) {
 
     document.getElementById("name").innerHTML =`Name: ${name}`;
     document.getElementById("phone").innerHTML =`Phone: ${phone}`;
-    document.getElementById("email").innerHTML = `Email: ${email}`
-    document.getElementById("special").innerHTML = describe
-
+    document.getElementById("email").innerHTML = `Email: ${email}`;
+    document.getElementById("special").innerHTML = describe;
+    document.getElementById("1fruit").innerHTML = selectValue;
+    document.getElementById("2fruit").innerHTML = selectValue2;
+    document.getElementById("3fruit").innerHTML = selectValue3;
     
     
     let carbohydrate = ``;
